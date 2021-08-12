@@ -27,6 +27,8 @@ Now, in the checkout, run:
 
 ``` 
 jx boot
+or
+jx boot -r jx-requirements.yml  
 ```
 
 If you are not in a clone of a boot git repository then `jx boot` will clone this repository and `cd` into the clone.
